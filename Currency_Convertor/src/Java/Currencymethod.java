@@ -11,7 +11,6 @@ public class Currencymethod {
 		
 		try {
 			String host = "https://currency-converter-by-api-ninjas.p.rapidapi.com/v1/convertcurrency";
-			String charset = "UTF-8";
 			
 			com.mashape.unirest.http.HttpResponse<JsonNode> response =  Unirest.get(host)
 				    .header("content-type", "application/json")
